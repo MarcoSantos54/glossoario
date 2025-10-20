@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glossário de Desenvolvimento Web</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+      font-size: 2.2em;
+    }
+    .grupo {
+      margin-bottom: 40px;
+      border-left: 5px solid #3498db;
+      padding-left: 20px;
+    }
+    .grupo h2 {
+      color: #2980b9;
+      font-size: 1.6em;
+      margin-bottom: 15px;
+    }
+    .termo {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #ecf0f1;
+      border-radius: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .termo:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+    .termo strong {
+      color: #e74c3c;
+      font-size: 1.2em;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .definicao {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    .sinonimos {
+      font-size: 0.95em;
+      color: #7f8c8d;
+    }
+    .sinonimos span {
+      background: #bdc3c7;
+      color: #2c3e50;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-right: 8px;
+      font-weight: 500;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #95a5a6;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 20px; }
+      .grupo { padding-left: 15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Glossário de Desenvolvimento Web</h1>
+
+    <!-- Grupo 1 -->
+    <div class="grupo">
+      <h2>Grupo 1: Fundamentos da Web</h2>
+
+      <div class="termo">
+        <strong>HTML</strong>
+        <div class="definicao">Linguagem de marcação usada para estruturar conteúdo na web, definindo elementos como títulos, parágrafos e imagens.</div>
+        <div class="sinonimos">
+          <span>HyperText Markup Language</span>
+          <span>Linguagem de Marcação de Hipertexto</span>
+          <span>Estrutura de Página Web</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>JavaScript</strong>
+        <div class="definicao">Linguagem de programação interpretada, usada para adicionar interatividade e lógica dinâmica em páginas web.</div>
+        <div class="sinonimos">
+          <span>JS</span>
+          <span>ECMAScript</span>
+          <span>Linguagem de Script</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Desenvolvendo</strong>
+        <div class="definicao">Processo de criar ou construir software, envolvendo planejamento, codificação e testes.</div>
+        <div class="sinonimos">
+          <span>Criando</span>
+          <span>Programando</span>
+          <span>Construindo</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Código</strong>
+        <div class="definicao">Sequência de instruções escritas em uma linguagem de programação para resolver problemas ou automatizar tarefas.</div>
+        <div class="sinonimos">
+          <span>Script</span>
+          <span>Programa</span>
+          <span>Fonte</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Comentários</strong>
+        <div class="definicao">Textos não executáveis inseridos no código para explicar sua funcionalidade, facilitando manutenção e colaboração.</div>
+        <div class="sinonimos">
+          <span>Anotações</span>
+          <span>Notas</span>
+          <span>Observações</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grupo 2 -->
+    <div class="grupo">
+      <h2>Grupo 2: Lógica e Execução</h2>
+
+      <div class="termo">
+        <strong>Função</strong>
+        <div class="definicao">Bloco de código reutilizável que realiza uma tarefa específica e pode ser chamado múltiplas vezes.</div>
+        <div class="sinonimos">
+          <span>Rotina</span>
+          <span>Procedimento</span>
+          <span>Sub-rotina</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Parâmetro</strong>
+        <div class="definicao">Variável definida na declaração de uma função para receber valores ao ser chamada.</div>
+        <div class="sinonimos">
+          <span>Argumento</span>
+          <span>Variável de Entrada</span>
+          <span>Entrada</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Calculado</strong>
+        <div class="definicao">Resultado obtido por meio de operações matemáticas ou lógicas em um programa.</div>
+        <div class="sinonimos">
+          <span>Computado</span>
+          <span>Processado</span>
+          <span>Determinado</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Verifica</strong>
+        <div class="definicao">Processo de checar condições ou validade de dados para garantir correção.</div>
+        <div class="sinonimos">
+          <span>Checa</span>
+          <span>Valida</span>
+          <span>Confere</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Tempo</strong>
+        <div class="definicao">Medida de duração ou intervalo usado em programação para delays, cronômetros ou otimizações.</div>
+        <div class="sinonimos">
+          <span>Duração</span>
+          <span>Intervalo</span>
+          <span>Período</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grupo 3 -->
+    <div class="grupo">
+      <h2>Grupo 3: Manipulação de Dados</h2>
+
+      <div class="termo">
+        <strong>Receber</strong>
+        <div class="definicao">Ação de obter dados de uma fonte externa, como input do usuário ou API.</div>
+        <div class="sinonimos">
+          <span>Obter</span>
+          <span>Aceitar</span>
+          <span>Capturar</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Incrementar</strong>
+        <div class="definicao">Aumentar o valor de uma variável por uma unidade ou quantidade específica.</div>
+        <div class="sinonimos">
+          <span>Aumentar</span>
+          <span>Acrescentar</span>
+          <span>Elevar</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Atualizar</strong>
+        <div class="definicao">Modificar dados ou estados existentes para refletir mudanças recentes.</div>
+        <div class="sinonimos">
+          <span>Renovar</span>
+          <span>Refrescar</span>
+          <span>Modificar</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Retornar</strong>
+        <div class="definicao">Devolver um valor ou resultado de uma função para o chamador.</div>
+        <div class="sinonimos">
+          <span>Devolver</span>
+          <span>Enviar de Volta</span>
+          <span>Responder</span>
+        </div>
+      </div>
+
+      <div class="termo">
+        <strong>Agrupar</strong>
+        <div class="definicao">Organizar elementos em coleções ou estruturas para facilitar manipulação.</div>
+        <div class="sinonimos">
+          <span>Agrupar</span>
+          <span>Juntar</span>
+          <span>Organizar</span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Glossário desenvolvido para aprendizado e referência em desenvolvimento web. © 2025
+    </footer>
+  </div>
+
+</body>
